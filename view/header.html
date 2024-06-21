@@ -1,0 +1,55 @@
+<style>
+
+@font-face {
+        font-family: 'titulo2';
+        src: url("Domine-Regular.ttf");
+    }
+  .navbar-collapse {
+
+    flex-grow: 0;
+    align-items: flex-end;
+  }
+
+  .navbar-nav .nav-link.active {
+    color: #24417C;
+  }
+
+  .navbar-nav .nav-link.active:hover {
+    color: #C0372A;
+  }
+
+  .subt {
+    font-size: 23px;
+    font-family: titulo2;
+    font-weight: 500;
+    margin-left: 20px;
+  }
+
+
+  /* @media (max-width: 600px) {
+   
+  } */
+</style>
+
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid ">
+    <a class="navbar-brand ms-md-5" href="#"><img src="./includes/img/LOGO/LOGO.png" width="180px" alt=""></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mb-2 mb-lg-0  me-5 ">
+        <li class="nav-item ">
+          <a class="nav-link active subt" aria-current="page" href="./">Nosotros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active subt" aria-current="page" href="productos.php">Productos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active subt" aria-current="page" href="contacto.php">Contáctanos</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

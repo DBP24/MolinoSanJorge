@@ -1,0 +1,24 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: 'titulo1';
+    src: url("Domine-Bold.ttf");
+}
+
+@font-face {
+    font-family: 'titulo2';
+    src: url("Domine-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'titulo3';
+    src: url("Marcellus-Regular.ttf");
+}
+
+
+
+
+

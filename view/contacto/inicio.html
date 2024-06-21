@@ -1,0 +1,116 @@
+<style>
+    @font-face {
+        font-family: 'titulo1';
+        src: url("Domine-Bold.ttf");
+    }
+
+    @font-face {
+        font-family: 'titulo2';
+        src: url("Domine-Regular.ttf");
+    }
+
+    @font-face {
+        font-family: 'titulo3';
+        src: url("Marcellus-Regular.ttf");
+    }
+
+    
+    .ini_img {
+        width: 100%;
+        max-height: 400px;
+    }
+
+    .contenerdor-contacto{
+        padding: 60px;
+    }
+    .contacto h1{
+        font-family: titulo3;
+        font-size: 3rem;
+        font-weight: 700;
+        color: #24417C;
+    }
+    .contacto p{
+        font-family: titulo3;
+        font-size: 1.2rem;
+        color: #5b5b5b;
+        line-height: 30px;
+    }
+    .direccion{
+        font-family: titulo3;
+    }
+    .direccion h1{
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: #24417C;
+    }
+    .direccion p{
+        font-size: 1.2rem;
+        color: #5b5b5b;
+        position: relative;
+        bottom: 15px;
+        left: 50Px;
+    }
+    .img_correo{
+        width: 5%;
+        margin: 10px;
+
+    }
+
+    @media(max-width:600px){
+        .contenerdor-contacto{
+        padding: 20px;
+    }
+        .contacto p{
+        font-family: titulo3;
+        font-size: 1rem;
+        color: #5b5b5b;
+        line-height: 20px;
+        text-align: justify;
+        
+    }
+    .contacto h1{
+        text-align: center;
+    }
+
+    .direccion h1{
+        font-size: 1.2rem;
+
+    }
+    .direccion p{
+        font-size: 1rem;
+        color: #5b5b5b;
+        position: relative;
+        bottom: 15px;
+        left: 30Px;
+    }
+}
+</style>
+
+
+<img class="ini_img" src="includes/img/CONTACTO/CONTACTO.png" alt="...">
+
+<div class="container">
+    <div class="row contenerdor-contacto">
+        <div class="col-sm-12 col-md-6 contacto">
+            <h1>  Contáctanos</h1>
+            <p>En San Jorge estamos felices de poder atenderte.
+                A continuación, en la parte inferior, le presentamos un formulario para que pueda enviarnos sus
+                consultas, las cuales serán respondidas por nuestro personal a la brevedad posible.
+                Al lado derecho también puede encontrar otros medios de contacto. </p>
+        </div>
+        <div class="col-sm-12 col-md-6">
+            <div class="direccion">
+                <h1><img class="img_correo" src="includes/img/CONTACTO/ubicacionamarillo.png" alt="...">Dirección</h1>
+                <p>Carr. Panamericana Nte. 777, Lambayeque 14000</p>
+            </div>
+            <div class="direccion">
+                <h1> <img class="img_correo" src="includes/img/CONTACTO/telefonoamarillo.png" alt="...">Teléfono</h1>
+                <p> 979926503</p>
+            </div>
+            <div class="direccion">
+                <h1> <img class="img_correo" src="includes/img/CONTACTO/correoamarillo.png" alt="...">Correo</h1>
+                <p>molinosanjorgeperu@gmail.com</p>
+            </div>
+        </div>
+    </div>
+</div>

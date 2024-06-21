@@ -1,0 +1,100 @@
+<style>
+    @font-face {
+        font-family: 'titulo3';
+        src: url("Marcellus-Regular.ttf");
+    }
+
+    @font-face {
+        font-family: 'titulo2';
+        src: url("Domine-Regular.ttf");
+    }
+
+    .cont {
+        width: 850px;
+        margin-bottom: 100px;
+    }
+
+    .titu {
+        font-size: 4rem;
+        color: #1E3C79;
+        font-family: titulo3;
+        font-weight: 900;
+    }
+
+    .parra {
+        font-size: 1.1rem;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-family: titulo2;
+        text-align: center;
+        line-height: 35px;
+        color: #5b5b5b;
+    }
+    .btn-danger{
+         /* font-size: 20px;  */
+         padding-left:30px;
+         padding-right: 30px;
+        font-family: titulo3;
+        color: #fff;
+        background: #CB382A;
+        border: 1px solid #CB382A;
+        border-radius: 7px;
+    }
+    .btn-danger:hover, .btn:hover{
+        color: #fff;
+        background: #1E3C79;
+        border: 1px solid #1E3C79;
+    }
+    
+
+    @media (max-width: 600px) {
+        .parra {
+            font-size: 1.1rem;
+            text-align: center;
+            line-height: 25px;
+            color: #5b5b5b;
+        }
+
+        .titu {
+            font-size: 2.5rem;
+            color: #1E3C79;
+            font-family: titulo3;
+            font-weight: 900;
+            padding-top: 30px;
+        }
+        .btn-danger{
+         /* font-size: 20px;  */
+         padding-left:30px;
+         padding-right: 30px;
+        font-family: titulo3;
+        color: #fff;
+        background: #CB382A;
+        border: 1px solid #CB382A;
+        border-radius: 7px;
+        width: 210px;
+        margin-top: 20px;
+    }
+       
+
+
+    }
+</style>
+
+<div class="container-fluid">
+    <div class="row text-center align-items-center justify-content-center" style="max-height: 500px; background:#F6F6F6;">
+        <div class="col-12  mt-md-5 pt-md-5 cont ">
+            <h2 class="titu">Molinos San Jorge</h2>
+            <p class="parra">
+                Somos una empresa que lleva <b>23 años alimentando a las familias peruanas.</b>
+                Nos dedicamos al pilado, secado y comercialización de arroz.
+                Nos caracterizamos por nuestro compromiso real con los agricultores peruanos.
+                Nuestra maquinaria de alta tecnología nos permite otorgar arroz de mejor calidad, a un precio justo.
+            </p>
+            <div  class="col-12">
+                <a href="productos.php" class="btn btn-danger me-md-4 "> Nuestro Producto <i class="fa-solid fa-caret-right"></i></a>
+                    <a href="contacto.php?#contacto" class="btn btn-danger "> Clic para Cotizar <i class="fa-solid fa-caret-right"></i></a>
+              </div>
+        </div>
+       
+    </div>
+</div>
